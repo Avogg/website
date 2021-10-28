@@ -1,11 +1,9 @@
-import Title from '/components/Title'
+
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="font-montserrat">
-      <Title />
-
       <main>
         <section className="w-screen h-screen">
           <div className="grid grid-cols-2 md:grid-flow-row h-full">
