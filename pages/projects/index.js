@@ -1,12 +1,18 @@
-
+import Image from 'next/image'
 
 const Projects = () => {
     return (
       <div>
         <main className="">
-          <section className="w-screen h-screen">
-              <div className="grid md:grid-cols-2">
+          <section className="h-screen flex justify-center items-center">
+
+
+              <div className="grid grid-cols-1 gap-4 justify-items-center">
+                  <a href="http://vygado.pt"><img src="/vygado.png" className="rounded" /></a>
               </div>
+
+
+
           </section>
         </main>
       </div>

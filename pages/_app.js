@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 function MyApp({ Component, pageProps }) {
 
-  // create the AppBar if page != index
+  // create the AppBar if page
   const router = useRouter()
   if (router.pathname != "/"){
     return (
