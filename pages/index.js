@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="font-montserrat">
+    <div>
       <main>
         <section className="w-screen h-screen">
           <div className="grid grid-cols-2 md:grid-flow-row h-full">
@@ -15,7 +15,7 @@ export default function Home() {
                     <Link href="/about">
                       <p className="bg-avogg text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Sobre nós</p>
                     </Link>
-                    <Link href="/about">
+                    <Link href="/projects">
                       <p className="bg-avogg text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Projetos</p>
                     </Link>
                     <Link href="/about">
@@ -32,3 +32,5 @@ export default function Home() {
     </div>
   )
 }
+
+
