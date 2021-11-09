@@ -1,10 +1,6 @@
-import Title from '/components/Title'
-
-export default function About() {
+const About = () => {
   return (
-    <div className="font-montserrat">
-      <Title />
-
+    <div>
       <main>
         <section className="w-screen h-screen">
             <div className="grid md:grid-cols-2">
@@ -14,3 +10,5 @@ export default function About() {
     </div>
   )
 }
+
+export default About
