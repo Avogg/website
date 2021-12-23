@@ -4,33 +4,22 @@ import Script from 'next/script'
 const About = () => {
 
   const showDescription = (index) => {
-    var bottom = true;
     let slots = ["slot1", "slot2", "slot3"];
     let colors = ["bg-green-600", "bg-indigo-500", "bg-yellow-600"];
-    let names = ["Vasquinho", "Migueu", "Rodrigo"];
 
     colors.forEach(function (color) {
       document.body.classList.remove(color);
     });
     document.body.classList.add(colors[index]);
 
-    document.getElementById(slots[index]).style.transition = ".75s";
+    document.getElementById(slots[index]).style.transition = ".75s"
     document.getElementById(slots[index]).style.marginTop = "0px";
 
-
     slots.splice(index, 1);
-
     slots.forEach(function (slot) {
       slot == "slot2" ? document.getElementById(slot).style.marginTop = window.innerHeight - 90 + "px" : document.getElementById(slot).style.marginTop = "-" + window.innerHeight / 1.1 + "px";
-      document.getElementById(slot).classList.remove(colors[slot]);
     });
   }
-
-  const changeMargin = async (index, bottom = false) => {
-
-  }
-
-
 
   return (
     <>
