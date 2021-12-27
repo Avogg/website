@@ -23,10 +23,7 @@ export default async (req, res) => {
         data[git].bio = profile.data.bio;
     }
 
-    console.log(data.rodrigo);
-
     const profile2 = await octokit.request("/users/ramos21rodrigo");
-    console.log(profile2);
 
     return res.status(200).json({ vasco: data.vasco, miguel: data.miguel, rodrigo: data.rodrigo });
 
