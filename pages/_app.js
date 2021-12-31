@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   if (router.pathname != "/"){
     return (
     <AppBar>
-    <Component {...pageProps} />
+      <Component {...pageProps} />
     </AppBar>)
   }
 
