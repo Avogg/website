@@ -13,13 +13,13 @@ export default function Home() {
               <p className="md:text-xl md:leading-wide md:mt-5">Se a sua empresa precisa de um software, nós temos a solução!</p>
               <div className="grid md:grid-cols-3 space-between items-center justify-center md:space-x-5 md:mt-20">
                 <Link href="/about">
-                  <p className="bg-avogg text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Sobre nós</p>
+                  <p className="bg-avogg hover:bg-avogg-heavy text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Sobre nós</p>
                 </Link>
                 <Link href="/projects">
-                  <p className="bg-avogg text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Projetos</p>
+                  <p className="bg-avogg hover:bg-avogg-heavy text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Projetos</p>
                 </Link>
                 <Link href="/about">
-                  <p className="bg-avogg text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Contactos</p>
+                  <p className="bg-avogg hover:bg-avogg-heavy text-white font-semibold md:px-5 md:py-4 text-center cursor-pointer rounded-md">Contactos</p>
                 </Link>
               </div>
             </div>

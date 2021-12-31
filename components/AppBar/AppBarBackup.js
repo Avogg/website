@@ -16,19 +16,19 @@ const AppBar = ({ children }) => {
 
     return (
         <div className="grid grid-rows-2">
-            <div className="row-end-1 bg-avogg h-12 z-40">
-                <ul className="flex space-x-4 py-3 ml-4">
+            <div className="row-end-1 bg-avogg h-16 z-40">
+                <ul className="flex space-x-4 py-3 ml-4 my-auto">
                     <li className="">
-                        <Link href="/"><a onClick={() => setToWhite()} className="text-white hover:text-black">Home</a></Link>
+                        <Link href="/"><a onClick={() => setToWhite()} className="text-white hover:text-black font-semibold">Home</a></Link>
                     </li>
                     <li className="">
-                        <Link href="/about"><a className="text-white hover:text-black">Somos nós</a></Link>
+                        <Link href="/about"><a className="text-white hover:text-black font-semibold">Sobre nós</a></Link>
                     </li>
                     <li className="">
-                        <Link href="/projects"><a onClick={() => setToWhite()} className="text-white hover:text-black">Projetos</a></Link>
+                        <Link href="/projects"><a onClick={() => setToWhite()} className="text-white hover:text-black font-semibold">Projetos</a></Link>
                     </li>
                     <li className="">
-                        <Link href="/contacts"><a onClick={() => setToWhite()} className="text-white hover:text-black">Contactos</a></Link>
+                        <Link href="/contacts"><a onClick={() => setToWhite()} className="text-white hover:text-black font-semibold">Contactos</a></Link>
                     </li>
                 </ul>
             </div>
