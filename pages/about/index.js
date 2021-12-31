@@ -44,7 +44,7 @@ const About = () => {
         <div className="px-4"><a onClick={() => showDescription(1)} id="slot2" className="grid grid-rows-3 transition transition-all duration-700 hover:duration-300 bg-white hover:bg-indigo-500 text-indigo-500 hover:text-white w-full h-screen flex">
           <img className="w-60 h-60 mt-24 mx-auto rounded-full row-end-1 border border-avogg border-4 bg-white" src={data ? data.miguel.img : "logo.png"} />
           <div className="row-start-1 row-end-2 mx-auto flex-col justify-center">
-            <div className=" text-lg mt-2">Miguel</div>
+            <div className="text-lg mt-2">Miguel</div>
             <div className="-mt-2 text-4xl font-bold">Don Avogg (CEO)</div>
           </div>
           <div className="text-xs text-center -mt-2 px-10">{data ? data.miguel.bio : "a carregar.."}</div>
