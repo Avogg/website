@@ -9,6 +9,12 @@ async function fetcher(...arg) {
 
 const About = () => {
 
+  console.log("Oh hello there! Funny you're here!");
+  console.log("Look, we're making calls to the github api but we only use it in the profile pictures.");
+  console.log("This was mainly to show that we can work with apis so no big deal");
+
+  console.log("Anyways, if you see this message you should give us a call! It means you're interested ;)");
+
   const { data } = useSWR('/api/github', fetcher);
 
   const showDescription = (index) => {
